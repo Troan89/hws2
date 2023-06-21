@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13468715-e721-48d7-8204-53d39a8540b3" name="Changes" comment="first commit" />
+    <list default="true" id="13468715-e721-48d7-8204-53d39a8540b3" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/HW1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/HW1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/friend-message/FriendMessage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message-sender/MessageSender.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/s2-homeworks/hw01/message/Message.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,15 +36,33 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/it-kamasutra/DZ/hws2-master",
+    "last_opened_file_path": "C:/it-kamasutra/DZ/hws2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "C:\\it-kamasutra\\DZ\\hws2\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +72,9 @@
       <option name="presentableId" value="Default" />
       <updated>1687246445507</updated>
       <workItem from="1687246447292" duration="656000" />
+      <workItem from="1687248397977" duration="13662000" />
+      <workItem from="1687328555866" duration="33000" />
+      <workItem from="1687340354306" duration="8320000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1687246954054</created>
@@ -53,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687246954054</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1687248599402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687248599402</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
