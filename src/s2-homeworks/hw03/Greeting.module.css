@@ -1,22 +1,38 @@
 .greetingForm {
+    margin-left: 50px;
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    flex-direction: row;
 }
 
 .error {
+    color: red;
+    font-weight: bold;
 }
 
 .input {
+    width: 200px;
+    height: 30px;
 }
 
 .input:focus {
 }
 
 .errorInput {
+    border-color: red;
+    width: 200px;
+    height: 30px;
 }
 
 .button {
+    margin-left: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: #0066cc;
+    color: white;
+    border-radius: 5%;
 }
 
 .button:focus {
@@ -29,6 +45,7 @@
 }
 
 .text {
+    margin-top: 15px;
 }
 
 .greeting {
