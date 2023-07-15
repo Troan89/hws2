@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import s from './Stand.module.css'
 import SuperInputText from './common/c1-SuperInputText/SuperInputText'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
@@ -19,6 +19,7 @@ const Stand = () => {
                         id={'hw4-super-input-like-old'}
                         value={stateForAllInputs}
                         onChange={(e) => setValue(e.currentTarget.value)}
+                        className={"border-radius: 30px"}
                     />
                 </div>
                 {/*инпут с ошибкой:*/}
@@ -26,7 +27,11 @@ const Stand = () => {
                     <SuperInputText
                         id={'hw4-super-input-with-error'}
                         value={stateForAllInputs}
-                        onChangeText={setValue}
+                        onChangeText={(value) => {
+                            setValue(value)
+                            setError('')
+                        }}
+                        // onChangeText={setValue}
                         error={error}
                         onEnter={() => {
                             setError(
@@ -49,7 +54,9 @@ const Stand = () => {
                 </div>
                 {/*красная кнопка:*/}
                 <div>
-                    <SuperButton id={'hw4-super-button-red'} xType={'red'}>
+                    <SuperButton id={'hw4-super-button-red'}
+                                 xType={'red'}
+                    onClick={()=>alert("I am red")}>
                         red
                     </SuperButton>
                 </div>
@@ -58,7 +65,7 @@ const Stand = () => {
                     <SuperButton
                         id={'hw4-super-button-disabled'}
                         xType={'red'}
-                        disabled
+                        disabled={true}
                     >
                         disabled
                     </SuperButton>

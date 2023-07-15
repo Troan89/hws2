@@ -1,16 +1,21 @@
 .button {
+    width: 70px;
+    height: 30px;
 }
 
 .disabled {
+    background: lightgrey;
 }
 
 .secondary {
+    background: #0066cc;
 }
 
 .default {
 }
 
 .red {
+    background: red;
 }
 
 .default:hover {
@@ -33,4 +38,5 @@
 }
 
 .button:disabled {
+
 }
