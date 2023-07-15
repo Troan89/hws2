@@ -25,7 +25,7 @@ const Stand = () => {
                 {/*инпут с ошибкой:*/}
                 <div>
                     <SuperInputText
-                        id={'hw4-super-input-with-error'}
+                        id={'hw04-super-input-with-error'}
                         value={stateForAllInputs}
                         onChangeText={(value) => {
                             setValue(value)
